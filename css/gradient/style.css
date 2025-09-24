@@ -1,0 +1,8 @@
+body{
+    background-color: aliceblue;
+}
+
+div{
+    background: linear-gradient(in oklab to right, green 30%, yellow);
+    height: 500px;
+}

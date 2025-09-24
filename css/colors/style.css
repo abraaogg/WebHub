@@ -1,0 +1,13 @@
+h1{
+    color: rgb(38, 114, 180);
+}
+
+/*
+Primeira forma: cor em inglês
+
+2. Hexadecimal rgb #000000 / rgb(0, 0, 0)
+
+3. Forma: rgba, o 'a' é referente a opacidade
+rgba()
+
+*/
