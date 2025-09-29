@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  height: 100vh;                /* make body fill full screen */
+  display: flex;                /* enable flexbox */
+  justify-content: center;      /* center horizontally */
+  align-items: center;          /* center vertically */
+  background-color: beige;
+}
+
+.card {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #49C6E5, #7fff00  );
+  box-shadow: 0px 28px 28px -4px rgba(6, 6, 38, .6), 6px 6px 12px rgba(255, 255, 255, 0.555) inset;
+  border-radius: 16px;
+}
+
+h1{
+    color: rgb(73, 73, 73);
+}
