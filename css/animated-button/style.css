@@ -21,7 +21,7 @@
 
 
 button{
-    padding: 14px 28px;
+      padding: 1em 2em;
     gap: 8px;
     background: linear-gradient(130deg, #5DB7DE, #94ECBE, #4A7856);
     background-size: 600%;
