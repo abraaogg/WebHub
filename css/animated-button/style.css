@@ -21,7 +21,7 @@
 
 
 button{
-      padding: 1em 2em;
+    padding: 1em 2em;
     gap: 8px;
     background: linear-gradient(130deg, #5DB7DE, #94ECBE, #4A7856);
     background-size: 600%;
@@ -33,7 +33,7 @@ button{
     animation: gradientAnimation 4s infinite;
     animation-play-state: paused;
     overflow: hidden;
-     font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 500;
 }
 
