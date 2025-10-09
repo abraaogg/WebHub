@@ -10,5 +10,5 @@ console.log(nums);
 console.log(numsFatiados);
 
 let names = ["gustavo", "marcos", "rafael", "henrique", "juliano"];
-let namesFatiados = names.slice(1, 3)
-console.log(namesFatiados)
+let namesFatiados = names.slice(1, 3);
+console.log(namesFatiados);
