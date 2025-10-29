@@ -66,3 +66,16 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+li{
+padding: 12px;
+background-color: aliceblue;
+border-radius: 12px;
+cursor: pointer;
+}
+
+li.feito{
+  background-color: rgb(255, 120, 120);
+  color: rgb(131, 15, 15);
+  text-decoration: line-through;
+}
