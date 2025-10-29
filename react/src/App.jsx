@@ -1,12 +1,10 @@
-
 import "./App.css";
-import ProfileCard from "./components/ProfileCard";
+import Contador from "./components/Contador";
 
 function App() {
   return (
     <div>
-      <h1>Professor</h1>
-      <ProfileCard />
+      <Contador />
     </div>
   );
 }
