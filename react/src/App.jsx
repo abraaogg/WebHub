@@ -3,11 +3,16 @@ import Contador from "./components/Contador";
 import deku from "./assets/deku.jpg"
 
 function App() {
+  const frutas = ["Strawberry", "Banana", "Apple"]
   return (
-    <div>
+ /*    <div>
       <img src={deku} alt="Midoriya" />
-      <Contador />
-    </div>
+
+      <Contador /> 
+    </div> */
+    <ul>
+      {frutas.map(frutas => <li>{frutas}</li>)}
+    </ul>
   );
 }
 
