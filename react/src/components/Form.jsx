@@ -8,7 +8,8 @@ export const Form = () => {
     setName(e.target.value);
   }
 
-  function sendForm() {
+  function sendForm(e) {
+    e.preventDefault();
     alert(`Informações enviadas: ${name}`);
   }
 
