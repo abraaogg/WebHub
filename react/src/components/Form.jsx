@@ -19,7 +19,6 @@ export const Form = () => {
       <form onSubmit={sendForm}>
         <label htmlFor="name">Name </label>
         <input onChange={changeForm} type="text" id="name" name="name" />
-
         <button type="submit">Send</button>
       </form>
     </div>
