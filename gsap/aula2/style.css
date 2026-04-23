@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #dedede;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quadrado {
+  width: 200px;
+  height: 200px;
+  background-color: cornflowerblue;
+}
+
+button{
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 18px 24px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.botoes{
+  position: absolute;
+  bottom: 52px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 24px;
+}
+
+.play{
+  background-color: green;
+  color: white;
+}
+
+.pause{
+  background-color: crimson;
+  color: white;
+}
