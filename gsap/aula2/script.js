@@ -36,7 +36,15 @@ tl.to(".quadrado", {
   duration: 2,
   ease: "sine.out(1,0.3)",
   stagger: 0.5,
+}).to(".quadrado", {
+  x: 0,
+  y: 0,
+  backgroundColor: "cornflowerblue",
+  duration: 2,
+  ease: "sine.out(1,0.3)",
+  stagger: 0.5,
 });
+
 
 const botaoPlay = document.querySelector(".play");
 const botaoPause = document.querySelector(".pause");
