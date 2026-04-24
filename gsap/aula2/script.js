@@ -4,7 +4,8 @@ const quadrados = document.querySelectorAll(".quadrado"); // para fazer anima√ß√
 const tl = gsap.timeline({
   defaults: {
     duration: 1,
-  }, repeat: 1
+  },
+  repeat: 1,
 });
 
 tl.to(".quadrado", {
