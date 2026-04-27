@@ -45,7 +45,7 @@ h1 {
   font-weight: 500;
 }
 
-span {
+h1 span {
   font-family: "Pixelify Sans";
   background: url(img/text-img.png) right top / cover no-repeat;
 
@@ -59,9 +59,10 @@ span {
 }
 
 .content {
-  width: 40vw;
+  max-width: 30vw;
   font-size: 1.2em;
   line-height: 1.4;
+  color:  #1E1E1E;
 }
 
 a {
@@ -77,34 +78,33 @@ a {
   display: flex;
   align-items: center;
   cursor: pointer;
+  z-index: 2;
 }
 .wiki-link a {
   display: flex;
   align-items: center;
-  color: white;
-  text-decoration: none;
-  margin-left: 20px;
-}
-.wiki-link img {
-  margin-left: 40px;
+  gap: 20px; /* controls spacing cleanly */
+  padding-left: 20px;
+  color: #d9d9d9;
 }
 
 footer {
   position: relative;
-  width: 80vw; /* full screen width */
-  margin-left: -20px;
+  width: 60vw;
+  margin-left: -20px; /* cancels .left padding */
+  margin-top: -60px; /* adjust this */
 }
 
 .cards {
   position: relative;
   background: linear-gradient(90deg, #519150 0%, #02211a 50%, #2a5935 100%);
-  width: 70%;
+  width: 100%;
   height: 30px; /* background strip height */
   display: flex;
   align-items: center;
   gap: 60px;
   overflow: visible; /* IMPORTANT: allows pill to stick out */
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .cards::before {
@@ -115,6 +115,7 @@ footer {
   background-position: left, center;
   background-size: cover;
   opacity: 0.8; /* control strength here */
+  pointer-events: none;
   z-index: 1;
 }
 .card {
@@ -130,12 +131,16 @@ footer {
   background: rgba(0, 0, 0, 0.4); /* dark + transparent */
   color: #eaeaea;
   backdrop-filter: blur(6px); /* optional glass effect */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
-
 
 /* Right side */
 
 .kinich {
-  width: 60vw;
+  width: 50vw;
   z-index: 2;
+}
+
+img{
+  user-select: none;
 }
