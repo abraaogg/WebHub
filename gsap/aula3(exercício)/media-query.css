@@ -24,12 +24,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: visible; /* already good */
+  overflow-x: hidden;
 }
 
 .container {
   width: 100%;
   min-height: 100vh;
+  min-height: 100dvh;
   background-color: #dedede;
   display: flex;
   position: relative;
@@ -101,10 +102,6 @@ a {
   gap: 20px; /* controls spacing cleanly */
   padding-left: 10px;
   color: #d9d9d9;
-}
-
-.wiki-link:hover {
-  transform: translateY(-10px);
 }
 
 footer {
