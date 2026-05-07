@@ -26,7 +26,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-x: hidden;
+  overflow: visible;
+  position: relative;
 }
 
 .container {
@@ -151,10 +152,7 @@ footer {
 
 .kinich {
   height: 85vh;
-  max-width: 100%;
   width: auto;
-  max-width: none; /* 👈 REMOVE the restriction */
-  transform: none;
   transform: translateX(-15%);
 }
 
