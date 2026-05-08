@@ -8,13 +8,38 @@
   height: 200vh;
   background-color: #dedede;
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-items: end;
+  align-items: center;
   padding: 40px;
+  gap: 20px;
 }
 
-.quadrado {
-  width: 200px;
-  height: 200px;
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quadrado1 {
+  width: 100px;
+  height: 100px;
   background-color: cornflowerblue;
+}
+.quadrado2 {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  background-color: crimson;
+}
+.quadrado3 {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+}
+.quadrado4 {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
 }
