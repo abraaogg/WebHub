@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.divPai {
+  height: 180vh;
+  width: 100%;
+  background-color: #dedede;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+
+}
+
+h1 {
+  font-size: 12vw;
+  z-index: 1;
+  color: white;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  z-index: 2;
+
+  background: rgba(70, 70, 70, 0.301);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+}
+
+h2 {
+  font-size: 12vw;
+  color: white;
+}
